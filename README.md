@@ -1,7 +1,7 @@
 # @responsekit/tsmediator
 
 ## Install
-This lib relies on the [https://github.com/IRCraziestTaxi/responsekit](@responsekit/core) lib.
+This lib relies on the [`@responsekit/core`](https://github.com/IRCraziestTaxi/responsekit) lib.
 
 To use `@responsekit/tsmediator`:
 
@@ -58,4 +58,4 @@ if (result instanceof Rejection) {
 // Return a response with status 200 (or similar) whose payload is the GenericResponse that is the result.
 ```
 
-For a base controller that handles returning the appropriate express `Response` for the resulting `CommandResult`, check out the [https://github.com/IRCraziestTaxi/responsekit-express](`@responsekit/express`) package.
+For a base controller that handles returning the appropriate express `Response` for the resulting `CommandResult`, check out the [`@responsekit/express`](https://github.com/IRCraziestTaxi/responsekit-express) package.
