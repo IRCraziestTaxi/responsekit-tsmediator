@@ -1,0 +1,32 @@
+{
+  "name": "@responsekit/tsmediator",
+  "version": "1.0.0",
+  "description": "Extends tsmediator's Mediator to catch and return thrown responsekit Rejections.",
+  "main": "dist/index.js",
+  "scripts": {
+    "tsc": "tsc -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IRCraziestTaxi/responsekit-tsmediator.git"
+  },
+  "author": "IRCraziestTaxi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IRCraziestTaxi/responsekit-tsmediator/issues"
+  },
+  "homepage": "https://github.com/IRCraziestTaxi/responsekit-tsmediator#readme",
+  "devDependencies": {
+    "tslint": "^5.20.0",
+    "typescript": "~3.6.4"
+  },
+  "peerDependencies": {
+    "@responsekit/core": "^1.0.0",
+    "tsmediator": "^0.1.3"
+  },
+  "files": [
+    "LICENSE",
+    "package.json",
+    "dist/**"
+  ]
+}
