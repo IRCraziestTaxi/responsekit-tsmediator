@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/IRCraziestTaxi/responsekit-tsmediator#readme",
   "devDependencies": {
-    "tslint": "^5.20.0",
+    "tslint": "^6.1.2",
     "typescript": "~3.9.3"
   },
   "peerDependencies": {
